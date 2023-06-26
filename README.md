@@ -14,10 +14,10 @@ The agent would be deemed successful if it has been able to collect +13.0 reward
 # Getting Started
 First step is to download the environment based on the operating system a person has. Following are the operating systems that are
 available, 
-[Linux:] (https://learn.udacity.com/nanodegrees/nd893/parts/cd0373/lessons/523b5d7a-053e-4627-a4ac-cee97b8a1ad0/concepts/4c1b4caf-2d7e-4d9f-b7e5-4f7b855f7f1e) 
-[Mac OSX:] (https://learn.udacity.com/nanodegrees/nd893/parts/cd0373/lessons/523b5d7a-053e-4627-a4ac-cee97b8a1ad0/concepts/4c1b4caf-2d7e-4d9f-b7e5-4f7b855f7f1e)
-[Windows (32-bit)]:(https://learn.udacity.com/nanodegrees/nd893/parts/cd0373/lessons/523b5d7a-053e-4627-a4ac-cee97b8a1ad0/concepts/4c1b4caf-2d7e-4d9f-b7e5-4f7b855f7f1e)
-[Windows (64-bit):] (https://learn.udacity.com/nanodegrees/nd893/parts/cd0373/lessons/523b5d7a-053e-4627-a4ac-cee97b8a1ad0/concepts/4c1b4caf-2d7e-4d9f-b7e5-4f7b855f7f1e)
+[Linux:](https://learn.udacity.com/nanodegrees/nd893/parts/cd0373/lessons/523b5d7a-053e-4627-a4ac-cee97b8a1ad0/concepts/4c1b4caf-2d7e-4d9f-b7e5-4f7b855f7f1e) 
+[Mac OSX:](https://learn.udacity.com/nanodegrees/nd893/parts/cd0373/lessons/523b5d7a-053e-4627-a4ac-cee97b8a1ad0/concepts/4c1b4caf-2d7e-4d9f-b7e5-4f7b855f7f1e)
+[Windows (32-bit):](https://learn.udacity.com/nanodegrees/nd893/parts/cd0373/lessons/523b5d7a-053e-4627-a4ac-cee97b8a1ad0/concepts/4c1b4caf-2d7e-4d9f-b7e5-4f7b855f7f1e)
+[Windows (64-bit):](https://learn.udacity.com/nanodegrees/nd893/parts/cd0373/lessons/523b5d7a-053e-4627-a4ac-cee97b8a1ad0/concepts/4c1b4caf-2d7e-4d9f-b7e5-4f7b855f7f1e)
 
 
 
