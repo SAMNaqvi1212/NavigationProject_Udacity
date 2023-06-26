@@ -14,7 +14,4 @@ The agent would be deemed successful if it has been able to collect +13.0 reward
 # Getting Started
 First step is to download the environment based on the operating system a person has. Following are the operating systems that are
 available, 
-Linux: click here
-Mac OSX: click here
-Windows (32-bit): click here
-Windows (64-bit): click here
+
