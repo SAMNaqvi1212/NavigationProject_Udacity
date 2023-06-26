@@ -1,11 +1,9 @@
 # NavigationProject_Udacity
 This repository contains the files for the navigation project as part of Udacity Nano-Degree Learning program.
 
-
+![Uploading 42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif…]()
 ### Introduction Project Navigation
 For this project, an agent would be trained to navigate and collect bananas. 
-
-(https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif)
 
 The agent will have four possible actions and it has to choose one of the possible actions on each timestep. 
 1) Move forward
