@@ -1,7 +1,7 @@
 # NavigationProject_Udacity
 This repository contains the files for the navigation project as part of Udacity Nano-Degree Learning program.
 
-![Uploading 42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif…]()
+![42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e](https://github.com/SAMNaqvi1212/NavigationProject_Udacity/assets/76792427/570bbb97-f4b5-47cf-94b1-a821b00b89e9)
 ### Introduction Project Navigation
 For this project, an agent would be trained to navigate and collect bananas. 
 
