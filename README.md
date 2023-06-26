@@ -14,7 +14,6 @@ The agent would be deemed successful if it has been able to collect +13.0 reward
 # Getting Started
 First step is to download the environment based on the operating system a person has. Following are the operating systems that are
 available, 
-For this project, you will not need to install Unity - this is because we have already built the environment for you, and you can download it from one of the links below. You need only select the environment that matches your operating system:
 
 Linux: click here
 Mac OSX: click here
