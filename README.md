@@ -14,13 +14,11 @@ The agent would be deemed successful if it has been able to collect +13.0 reward
 # Getting Started
 First step is to download the environment based on the operating system a person has. Following are the operating systems that are
 available, 
+[Linux:] (https://learn.udacity.com/nanodegrees/nd893/parts/cd0373/lessons/523b5d7a-053e-4627-a4ac-cee97b8a1ad0/concepts/4c1b4caf-2d7e-4d9f-b7e5-4f7b855f7f1e) 
+[Mac OSX:] (https://learn.udacity.com/nanodegrees/nd893/parts/cd0373/lessons/523b5d7a-053e-4627-a4ac-cee97b8a1ad0/concepts/4c1b4caf-2d7e-4d9f-b7e5-4f7b855f7f1e)
+[Windows (32-bit)]:(https://learn.udacity.com/nanodegrees/nd893/parts/cd0373/lessons/523b5d7a-053e-4627-a4ac-cee97b8a1ad0/concepts/4c1b4caf-2d7e-4d9f-b7e5-4f7b855f7f1e)
+[Windows (64-bit):] (https://learn.udacity.com/nanodegrees/nd893/parts/cd0373/lessons/523b5d7a-053e-4627-a4ac-cee97b8a1ad0/concepts/4c1b4caf-2d7e-4d9f-b7e5-4f7b855f7f1e)
 
-Linux: click here
-Mac OSX: click here
-Windows (32-bit): click here
-Windows (64-bit): click here
-Then, place the file in the p1_navigation/ folder in the course GitHub repository, and unzip (or decompress) the file.
 
-(For Windows users) Check out this link if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
-(For AWS) If you'd like to train the agent on AWS (and have not enabled a virtual screen), then please use this link to obtain the "headless" version of the environment. You will not be able to watch the agent without enabling a virtual screen, but you will be able to train the agent. (To watch the agent, you should follow the instructions to enable a virtual screen, and then download the environment for the Linux operating system above.)
+
