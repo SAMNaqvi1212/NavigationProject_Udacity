@@ -24,5 +24,18 @@ available,
 4) [Windows (64-bit)](https://learn.udacity.com/nanodegrees/nd893/parts/cd0373/lessons/523b5d7a-053e-4627-a4ac-cee97b8a1ad0/concepts/4c1b4caf-2d7e-4d9f-b7e5-4f7b855f7f1e)
 
 
+After downloading the environment you can setup your environment accordingly. However, one can also work in the workstation provided by Udacity which has pre-installed all of the libraries and
+core requirements required of a system. 
 
+### Methodology
+In this project, we used a deep neural network in order to train the agent. The deep neural network comprised of three linear units and two rectified linear layers. The first linear layer comprised of 1024 units and the other layer used 256 neurons. 
+The Rectified Linear Layer Unit was used as an activation function here. The model used ADAM optimizer to update the weights regularly. 
+ ### Improvements in the model
+ Two proposed improvements in the model that we had incorporated are as follows:
+ 1) Experience Replay
+ 2) Fixed Q-Targets
+
+### Proposed Modifications:
+1) Try to implement Prioritized Experience Replay or Duel DQN (even Rainbow DQN).
+2) Create a general DQN architecture that could be used for other architectures.
 
