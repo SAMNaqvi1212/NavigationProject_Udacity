@@ -1,9 +1,10 @@
 # NavigationProject_Udacity
-This repository contains the files for the navigation project as part of Udacity Nano-Degree Learning program.
+This project is the first one in Udacity's Deep Reinforcement Learning Nanodegree. In this project, I have trained an agent to navigate and collect bananas in a large square world.
 
 ![42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e](https://github.com/SAMNaqvi1212/NavigationProject_Udacity/assets/76792427/570bbb97-f4b5-47cf-94b1-a821b00b89e9)
 ### Introduction Project Navigation
-For this project, an agent would be trained to navigate and collect bananas. 
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction. Given this information, the agent has to learn how to best select actions. 
 
 The agent will have four possible actions and it has to choose one of the possible actions on each timestep. 
 1) Move forward
@@ -30,10 +31,19 @@ core requirements required of a system.
 ### Methodology
 In this project, we used a deep neural network in order to train the agent. The deep neural network comprised of three linear units and two rectified linear layers. The first linear layer comprised of 1024 units and the other layer used 256 neurons. 
 The Rectified Linear Layer Unit was used as an activation function here. The model used ADAM optimizer to update the weights regularly. 
- ### Improvements in the model
- Two proposed improvements in the model that we had incorporated are as follows:
- 1) Experience Replay
- 2) Fixed Q-Targets
+
+### More Innovative Ideas
+
+##Double Deep Q-Networks (DDQN)
+One issue with Deep Q-Networks is they can overestimate Q-values (see Thrun & Schwartz, 1993). The accuracy of the Q-values depends on which actions have been tried and which states have been explored. If the agent hasn't gathered enough experiences, the Q-function will end up selecting the maximum value from a noisy set of reward estimates. Early in the learning process, this can cause the algorithm to propagate incidentally high rewards that were obtained by chance (exploding Q-values). This could also result in fluctuating Q-values later in the process
+
+We can address this issue using Double Q-Learning, where one set of parameters w is used to select the best action, and another set of parameters w' is used to evaluate that action.
+
+##Prioritized Experience Replay
+Experience replay lets online reinforcement learning agents remember and reuse experiences from the past. In prior work, experience transitions were uniformly sampled from a replay memory. However, this approach simply replays transitions at the same frequency that they were originally experienced, regardless of their significance. To replay important transitions more frequently, and therefore learn more efficiently, we use prioritized Experience Replay
+
+##Dueling Agents
+Dueling networks utilize two streams: one that estimates the state value function V(s), and another that estimates the advantage for each action A(s,a). These two values are then combined to obtain the desired Q-values.
 
 ### Proposed Modifications:
 1) Try to implement Prioritized Experience Replay or Duel DQN (even Rainbow DQN).
