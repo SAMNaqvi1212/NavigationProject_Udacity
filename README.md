@@ -39,10 +39,10 @@ One issue with Deep Q-Networks is they can overestimate Q-values (see Thrun & Sc
 
 We can address this issue using Double Q-Learning, where one set of parameters w is used to select the best action, and another set of parameters w' is used to evaluate that action.
 
-##Prioritized Experience Replay
+###Prioritized Experience Replay
 Experience replay lets online reinforcement learning agents remember and reuse experiences from the past. In prior work, experience transitions were uniformly sampled from a replay memory. However, this approach simply replays transitions at the same frequency that they were originally experienced, regardless of their significance. To replay important transitions more frequently, and therefore learn more efficiently, we use prioritized Experience Replay
 
-##Dueling Agents
+###Dueling Agents
 Dueling networks utilize two streams: one that estimates the state value function V(s), and another that estimates the advantage for each action A(s,a). These two values are then combined to obtain the desired Q-values.
 
 ### Proposed Modifications:
